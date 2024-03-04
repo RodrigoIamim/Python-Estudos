@@ -1,0 +1,6 @@
+num = str(input('Digite um numero inteiro entre 0 e 9999: '))
+sep = ''.join(num.split())
+print(f'Unidade: {sep[3]}')
+print(f'Dezena: {sep[2]}')
+print(f'Centena: {sep[1]}')
+print(f'Milhar: {sep[0]}')

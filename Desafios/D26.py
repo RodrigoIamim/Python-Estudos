@@ -1,0 +1,7 @@
+frase = input('Digite uma frase: ').upper()
+qtd = frase.count('A')
+prim = frase.find('A')
+ult =frase.rfind('A')
+print(f'{qtd} letras a encontradas.')
+print(f'Apereceu primeiro na posição {prim}')
+print(f'E foi visto pela ultima vez na posição {ult}')
