@@ -1,6 +1,6 @@
-from math import sin, cos, tan
-ang = int(input('Valor do ângulo: '))
-s = sin(ang)
-c = cos(ang)
-t = tan(ang)
-print(f' sen {ang}°= {s}\n cos {ang}° = {c}\n tan {ang}° = {t}')
+from math import sin, cos, tan, radians
+ang = float(input('Valor do ângulo: '))
+s = sin(radians(ang))
+c = cos(radians(ang))
+t = tan(radians(ang))
+print(f' sen {ang}°= {s:.2f}\n cos {ang}° = {c:.2f}\n tan {ang}° = {t:.2f}')

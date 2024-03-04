@@ -1,5 +1,5 @@
 from math import hypot
-cop = int(input('Comprimento do cateto oposto: '))
-cad = int(input('Comprimento do cateto adjacente: '))
+cop = float(input('Comprimento do cateto oposto: '))
+cad = float(input('Comprimento do cateto adjacente: '))
 hip = hypot(cop, cad)
-print(f'A hipotenusa desse triângulo é {hip}')
+print(f'A hipotenusa desse triângulo é {hip:.2f}')
