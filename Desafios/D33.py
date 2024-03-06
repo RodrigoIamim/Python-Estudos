@@ -1,5 +1,8 @@
+maior = 0
+menor = 0
 n1 = int(input('n1: '))
 maior = n1
+menor = n1
 n2 = int(input('n2: '))
 if n2 > n1:
     maior = n2
