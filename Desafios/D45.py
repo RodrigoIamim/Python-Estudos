@@ -16,8 +16,7 @@ else:
     print('KEN')
     sleep(0.5)
     print('PO')
-    sleep(0.2)
-    
+    sleep(0.5)
     print('~' * 20)
     print(f'COMPUTADOR: {itens[computador]}')
     print(f'JOGADOR: {itens[jogador]}')
