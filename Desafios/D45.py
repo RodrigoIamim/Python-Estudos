@@ -26,10 +26,10 @@ else:
         if computador == 0:
             print('EMPATE!')
         elif computador == 1:
-            print('JOGADOR VENCEU!')
-        elif computador == 2:
             print('COMPUTADOR VENCEU!')
-    elif jogador == 1: 
+        elif computador == 2:
+            print('JOGADOR VENCEU!')
+    elif jogador == 1:  
         if computador == 0:
             print('JOGADOR VENCEU!')
         elif computador == 1:
