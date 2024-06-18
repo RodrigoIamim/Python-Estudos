@@ -1,12 +1,20 @@
 '''from math import factorial
 print('FATORIAL 1')
-n1 = int(input('Insira um número inteiro: '))
-fat = factorial(n1)
-print(f'O fatorial de {n1} é {fat}')'''
+n = int(input('Insira um número inteiro: '))
+fat = factorial(n)
+print(f'O fatorial de {n} é {fat}')'''
 
 print('FATORIAL 2')
-n1 = int(input('Insira um número inteiro: '))
-c = n1
-while c != 0:
-    c-=1
-    fat = c
+n = int(input('Insira um número inteiro: '))
+c = n
+fat = 1
+print(f'{n}!... ', end='')
+while c > 0:
+    print(f'{c} ', end='')
+    print(' x ' if c > 1 else ' = ', end='')
+    fat *= c
+    c -= 1
+print(f'FIM! o resultado de {n}! é {fat}')
+
+
+
