@@ -1,16 +1,22 @@
 print('-=-'*10, end='')
 print(' LOJAS TICARACATICAS ', end='')
 print('-=-'*10)
-total = min = max = totmil = 0
+total = min = totmil = max = 0
+c = 1
 while True:
     produto = str(input('Produto: ')).strip().upper()
     valor = float(input('Valor: '))
-    min = max = valor
     total += valor
     if valor > 1000:
         totmil += 1
-
-
+    if c == 1:
+        min = max = valor
+    else:
+        if valor > max:
+            max = valor
+        if valor < min:
+            min = valor
+    c += 1
     resp = ' '
     while resp not in 'SN':
         resp = str(input('Continuar comprando? [S/N] ')).upper().strip()[0]
