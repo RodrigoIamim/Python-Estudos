@@ -1,2 +1,2 @@
-# Python-2024
- Iniciando estudos de python 3 em 2024
+# Python-Estudos
+ Repositório com a finalidade de compartilhar minha jornada de aprendizado na linguagem Python.
